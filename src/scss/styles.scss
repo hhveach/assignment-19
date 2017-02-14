@@ -2,13 +2,142 @@
 	box-sizing: border-box;
 }
 
-body{
-	font-family: Helvetica, Arial, sans-serif;
+body{font-family: Helvetica, Arial, sans-serif;}
+
+img {display: block; width: 100%;}
+
+
+#app-container {
+	margin: 0 auto;
+	text-align: center;
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: chartreuse;
-	font-size: 12vw;
+.column-container > * {
+	display: inline-block;
+	font-size: 0;
+	vertical-align: top;
 }
+
+.header-nav {
+	width: 100%;
+	background-color: #f5f5f5;
+	margin-bottom: 40px;
+	padding: 10px;
+}
+
+.first-input {width: 32%;}
+
+.first-input input {
+	width: 100%;
+	padding: 8px;
+}
+
+.PIG {
+	width: 10%;
+	font-size: medium;
+	padding-top: 8px;
+}
+
+.gist {
+	width: 20%;
+	text-align: left;
+}
+
+.PIG a {
+	text-decoration: none;
+	font-weight: 600;
+	color: black;
+}
+
+.logo {
+	width: 3%;
+	font-size: medium;
+}
+
+.logo-git {
+	width: 5%;
+	font-size: medium;
+}
+
+.logo-git i {
+	font-size: 32px;
+}
+
+.logo i {
+	font-size: 24px;
+}
+
+.main {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.profile-left {
+	width: 25%;
+	font-size: medium;
+}
+
+.profile-left p {text-align: left;}
+
+.profile-left i {padding-right: 5px;}
+
+.profile-left img {border-radius: 2%;}
+
+.profile-left h2 {
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.profile-left h3 {
+	text-align: left;
+	color: grey;
+	margin-top: 0;
+}
+
+.profile-left, .repo-right {padding: 0 25px;}
+
+.repo-right {
+	width: 65%;
+	font-size: medium;
+	text-align: left;
+}
+
+.repo-right a {
+	text-decoration: none;
+	color: #4884c6;
+}
+
+.repo-right span {padding-right: 5px;}
+
+.unfollow {
+	width: 100%;
+	padding: 12px;
+	border-radius: 2%;
+	border-width: 1px;
+	background-color: #f5f5f5;
+}
+
+.grey {
+	color: grey;
+	text-align: left;
+	font-size: 12px;
+}
+// .nav-bar-main {
+// 	width: 100%;
+// 	text-align: left;
+// 	padding-left: 15px;
+// }
+
+// .overview {
+// 	width: 15%;
+// 	font-size: medium;
+// 	color: grey;
+// }
+
+// .nav-bar-input {
+// 	width: 100%;
+// }
+//
+// .nav-bar-input input {
+// 	width: 60%;
+// }
